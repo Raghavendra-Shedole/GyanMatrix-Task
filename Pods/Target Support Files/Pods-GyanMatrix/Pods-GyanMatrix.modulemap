@@ -1,0 +1,6 @@
+framework module Pods_GyanMatrix {
+  umbrella header "Pods-GyanMatrix-umbrella.h"
+
+  export *
+  module * { export * }
+}

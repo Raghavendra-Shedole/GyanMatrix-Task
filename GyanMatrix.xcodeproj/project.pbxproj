@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71B8416DC4E62C9D075FE488 /* Pods_GyanMatrix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536FEA4E9A45B468E1E4A8E2 /* Pods_GyanMatrix.framework */; };
+		A211E01520447129000F4E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A211E01420447129000F4E28 /* AppDelegate.swift */; };
+		A211E01A20447129000F4E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A211E01820447129000F4E28 /* Main.storyboard */; };
+		A211E01C20447129000F4E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A211E01B20447129000F4E28 /* Assets.xcassets */; };
+		A211E01F20447129000F4E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A211E01D20447129000F4E28 /* LaunchScreen.storyboard */; };
+		A211E02D204492EE000F4E28 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A211E02C204492EE000F4E28 /* CustomView.swift */; };
+		A211E02F20449447000F4E28 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A211E02E20449447000F4E28 /* CountryViewController.swift */; };
+		A211E036204494B4000F4E28 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A211E035204494B4000F4E28 /* CountryTableViewCell.swift */; };
+		A211E03B204498F0000F4E28 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A211E03A204498F0000F4E28 /* Persistance.swift */; };
+		A211E05C20449CAE000F4E28 /* Country.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A211E05A20449CAE000F4E28 /* Country.xcdatamodeld */; };
+		A211E0622044A25C000F4E28 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A211E0612044A25C000F4E28 /* CustomImageView.swift */; };
+		A211E0632044A29F000F4E28 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A211E0642044A29F000F4E28 /* Kingfisher.framework */; };
+		A24AA5712044A4010084D902 /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24AA5702044A4010084D902 /* CountryListViewController.swift */; };
+		A24AA5762044A4450084D902 /* CountryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24AA5752044A4450084D902 /* CountryListTableViewCell.swift */; };
+		A24AA57C2044CD460084D902 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = A24AA57B2044CD460084D902 /* Countries.json */; };
+		A2D4A2CC20451426005B4205 /* Country+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4A2CA20451426005B4205 /* Country+CoreDataProperties.swift */; };
+		A2D4A2CD20451426005B4205 /* Country+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D4A2CB20451426005B4205 /* Country+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		536FEA4E9A45B468E1E4A8E2 /* Pods_GyanMatrix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GyanMatrix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94039EBD803898822B8C9590 /* Pods-GyanMatrix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GyanMatrix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GyanMatrix/Pods-GyanMatrix.debug.xcconfig"; sourceTree = "<group>"; };
+		A211E01120447129000F4E28 /* GyanMatrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyanMatrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A211E01420447129000F4E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A211E01920447129000F4E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A211E01B20447129000F4E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A211E01E20447129000F4E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A211E02020447129000F4E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A211E02C204492EE000F4E28 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		A211E02E20449447000F4E28 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		A211E035204494B4000F4E28 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		A211E03A204498F0000F4E28 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		A211E05B20449CAE000F4E28 /* TrendingHero.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrendingHero.xcdatamodel; sourceTree = "<group>"; };
+		A211E0612044A25C000F4E28 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		A211E0642044A29F000F4E28 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24AA5702044A4010084D902 /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
+		A24AA5752044A4450084D902 /* CountryListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListTableViewCell.swift; sourceTree = "<group>"; };
+		A24AA57B2044CD460084D902 /* Countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
+		A2D4A2CA20451426005B4205 /* Country+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		A2D4A2CB20451426005B4205 /* Country+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Country+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E163072F456AF7711BE7ACA5 /* Pods-GyanMatrix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GyanMatrix.release.xcconfig"; path = "Pods/Target Support Files/Pods-GyanMatrix/Pods-GyanMatrix.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A211E00E20447129000F4E28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A211E0632044A29F000F4E28 /* Kingfisher.framework in Frameworks */,
+				71B8416DC4E62C9D075FE488 /* Pods_GyanMatrix.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A211E00820447129000F4E28 = {
+			isa = PBXGroup;
+			children = (
+				A211E01320447129000F4E28 /* GyanMatrix */,
+				A211E01220447129000F4E28 /* Products */,
+				D46C320F9804CBFCEF0B9622 /* Pods */,
+				EF544C52DBE91C57A3E6B732 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A211E01220447129000F4E28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A211E01120447129000F4E28 /* GyanMatrix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A211E01320447129000F4E28 /* GyanMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				A2D4A2C9204513A0005B4205 /* Common Files */,
+				A24AA56F2044A3DC0084D902 /* CountryListViewController */,
+				A211E0302044944F000F4E28 /* Trending View Controller */,
+				A211E01420447129000F4E28 /* AppDelegate.swift */,
+				A211E01820447129000F4E28 /* Main.storyboard */,
+				A211E01B20447129000F4E28 /* Assets.xcassets */,
+				A211E01D20447129000F4E28 /* LaunchScreen.storyboard */,
+				A211E02020447129000F4E28 /* Info.plist */,
+			);
+			path = GyanMatrix;
+			sourceTree = "<group>";
+		};
+		A211E0302044944F000F4E28 /* Trending View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A211E03220449483000F4E28 /* View */,
+				A211E03120449470000F4E28 /* Controller */,
+			);
+			path = "Trending View Controller";
+			sourceTree = "<group>";
+		};
+		A211E03120449470000F4E28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A211E02E20449447000F4E28 /* CountryViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A211E03220449483000F4E28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A211E035204494B4000F4E28 /* CountryTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A211E03C2044990E000F4E28 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				A211E03A204498F0000F4E28 /* Persistance.swift */,
+				A2D4A2CB20451426005B4205 /* Country+CoreDataClass.swift */,
+				A2D4A2CA20451426005B4205 /* Country+CoreDataProperties.swift */,
+				A211E05A20449CAE000F4E28 /* Country.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		A24AA56F2044A3DC0084D902 /* CountryListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A24AA5742044A4220084D902 /* Controller */,
+				A24AA5732044A41C0084D902 /* View */,
+				A24AA5722044A4140084D902 /* Modal */,
+			);
+			path = CountryListViewController;
+			sourceTree = "<group>";
+		};
+		A24AA5722044A4140084D902 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				A24AA57B2044CD460084D902 /* Countries.json */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		A24AA5732044A41C0084D902 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A24AA5752044A4450084D902 /* CountryListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A24AA5742044A4220084D902 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A24AA5702044A4010084D902 /* CountryListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2D4A2C9204513A0005B4205 /* Common Files */ = {
+			isa = PBXGroup;
+			children = (
+				A211E02C204492EE000F4E28 /* CustomView.swift */,
+				A211E0612044A25C000F4E28 /* CustomImageView.swift */,
+				A211E03C2044990E000F4E28 /* Core Data */,
+			);
+			path = "Common Files";
+			sourceTree = "<group>";
+		};
+		D46C320F9804CBFCEF0B9622 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94039EBD803898822B8C9590 /* Pods-GyanMatrix.debug.xcconfig */,
+				E163072F456AF7711BE7ACA5 /* Pods-GyanMatrix.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF544C52DBE91C57A3E6B732 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A211E0642044A29F000F4E28 /* Kingfisher.framework */,
+				536FEA4E9A45B468E1E4A8E2 /* Pods_GyanMatrix.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A211E01020447129000F4E28 /* GyanMatrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A211E02320447129000F4E28 /* Build configuration list for PBXNativeTarget "GyanMatrix" */;
+			buildPhases = (
+				1DF5CF23D3038A739CFE135E /* [CP] Check Pods Manifest.lock */,
+				A211E00D20447129000F4E28 /* Sources */,
+				A211E00E20447129000F4E28 /* Frameworks */,
+				A211E00F20447129000F4E28 /* Resources */,
+				16A004A0AB1654FEBF07EDEA /* [CP] Embed Pods Frameworks */,
+				D3DDF2E4D136919BE56B0510 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GyanMatrix;
+			productName = GyanMatrix;
+			productReference = A211E01120447129000F4E28 /* GyanMatrix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A211E00920447129000F4E28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Raghavendra Shedole";
+				TargetAttributes = {
+					A211E01020447129000F4E28 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A211E00C20447129000F4E28 /* Build configuration list for PBXProject "GyanMatrix" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A211E00820447129000F4E28;
+			productRefGroup = A211E01220447129000F4E28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A211E01020447129000F4E28 /* GyanMatrix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A211E00F20447129000F4E28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A211E01F20447129000F4E28 /* LaunchScreen.storyboard in Resources */,
+				A211E01C20447129000F4E28 /* Assets.xcassets in Resources */,
+				A24AA57C2044CD460084D902 /* Countries.json in Resources */,
+				A211E01A20447129000F4E28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16A004A0AB1654FEBF07EDEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GyanMatrix/Pods-GyanMatrix-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GyanMatrix/Pods-GyanMatrix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DF5CF23D3038A739CFE135E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GyanMatrix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3DDF2E4D136919BE56B0510 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GyanMatrix/Pods-GyanMatrix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A211E00D20447129000F4E28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D4A2CC20451426005B4205 /* Country+CoreDataProperties.swift in Sources */,
+				A211E02D204492EE000F4E28 /* CustomView.swift in Sources */,
+				A211E0622044A25C000F4E28 /* CustomImageView.swift in Sources */,
+				A211E02F20449447000F4E28 /* CountryViewController.swift in Sources */,
+				A2D4A2CD20451426005B4205 /* Country+CoreDataClass.swift in Sources */,
+				A211E05C20449CAE000F4E28 /* Country.xcdatamodeld in Sources */,
+				A24AA5712044A4010084D902 /* CountryListViewController.swift in Sources */,
+				A211E036204494B4000F4E28 /* CountryTableViewCell.swift in Sources */,
+				A24AA5762044A4450084D902 /* CountryListTableViewCell.swift in Sources */,
+				A211E01520447129000F4E28 /* AppDelegate.swift in Sources */,
+				A211E03B204498F0000F4E28 /* Persistance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A211E01820447129000F4E28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A211E01920447129000F4E28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A211E01D20447129000F4E28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A211E01E20447129000F4E28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A211E02120447129000F4E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A211E02220447129000F4E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A211E02420447129000F4E28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94039EBD803898822B8C9590 /* Pods-GyanMatrix.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A693V6KR5;
+				INFOPLIST_FILE = GyanMatrix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raghav.GyanMatrix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A211E02520447129000F4E28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E163072F456AF7711BE7ACA5 /* Pods-GyanMatrix.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A693V6KR5;
+				INFOPLIST_FILE = GyanMatrix/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Raghav.GyanMatrix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A211E00C20447129000F4E28 /* Build configuration list for PBXProject "GyanMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A211E02120447129000F4E28 /* Debug */,
+				A211E02220447129000F4E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A211E02320447129000F4E28 /* Build configuration list for PBXNativeTarget "GyanMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A211E02420447129000F4E28 /* Debug */,
+				A211E02520447129000F4E28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A211E05A20449CAE000F4E28 /* Country.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A211E05B20449CAE000F4E28 /* TrendingHero.xcdatamodel */,
+			);
+			currentVersion = A211E05B20449CAE000F4E28 /* TrendingHero.xcdatamodel */;
+			path = Country.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A211E00920447129000F4E28 /* Project object */;
+}
